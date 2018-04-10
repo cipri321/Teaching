@@ -1,0 +1,8 @@
+Algoritm de Fill
+-se foloseste pt a determina zonele unui tablou multidimensional
+Pasi:
+-se foloseste o functie recursiva care marcheaza toti vecinii pozitiei curente, in cazul in care fac parte din aceeasi zona
+-procedam la fel pt toti vecinii
+Probleme:
+1. Se da o matrice NxN cu valori 1 si 0. Sa se identifica cel mai mare zona formata din 1 invecinati. Doua celule sunt invecinate daca sunt pe aceeasi linie sau coloana.
+2.https://www.infoarena.ro/problema/ferma3
