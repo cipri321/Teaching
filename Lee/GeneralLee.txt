@@ -1,0 +1,9 @@
+Algoritmul lui Lee
+-se foloseste la aflarea drumului minim intr-un tablou multidimensional
+Pasi:
+	1.	Primul şi poate cel mai important pas este folosirea unei Cozi, sub forma unui vector de structuri (de preferabil), care va menţine toţi paşii pe care o să-i facem de acum în colo. În această coadă se pun, pentru fiecare pas, locurile care s-au marcat la punctul anterior.
+	2.	Se marchează cu numere consecutive toate locurile posibile prin care putem trece, parcurgând în ordine elementele cozii, până când nu mai putem marca, sau am ajuns la final.
+Probleme esentiale:
+1. Se dă o matrice cu M linii şi N coloane. Ştiind locul de plecare, marcat cu -1, se cere să se determine drumul de lungime minimă până la o ieşire, iar in caz că nu există, se va afişa -1
+2.https://infoarena.ro/problema/muzeu
+3.https://infoarena.ro/problema/alee
