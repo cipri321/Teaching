@@ -9,7 +9,7 @@ bool ins(int l,int c)
 {
 	return 1<=l&&l<=n&&1<=c&&c<=n;
 }
-int marcare(int l,int c)
+void marcare(int l,int c)
 {
 	Z[i][j]=nrz;//marcam (l,c) ca apartine zonei curente
 	crt++;//crestem dimensiunea zonei curente
