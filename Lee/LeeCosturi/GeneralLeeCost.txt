@@ -15,5 +15,5 @@ Exp: In fiecare celula a tabloului se afla un numar, costul trecerii dintr-o cel
 	-la fiecare moment de timp vom extrage elementul din coada cu costul cel mai mic
 
 Probleme esentiale:
-1.http://acm.timus.ru/problem.aspx?space=1&num=1930
+1.http://olidej.wikispaces.com/file/view/2017_10_p2_retea.pdf/608731799/2017_10_p2_retea.pdf
 2.https://infoarena.ro/problema/delfin
