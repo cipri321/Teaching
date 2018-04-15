@@ -1,0 +1,13 @@
+-tehnica de programare care se bazeaza pe o formula de recurenta si una sau mai multe stari initiale
+-o subsolutie a probleem este constituita din subsolutiile calculate anterior
+Exp: Calculati in cate moduri poate fi urcata o scara cu n trepte stiind ca la un moment dat se pot urca una sau doua trepte
+Termeni uzuali:
+	stare=o subsolutie a problemei. In cazul de fata numarul de moduli in care se poate urca o scara cu x trepte, x<=n
+	formula de recurenta: formula prin care se obtine subsolutia curenta din subsolutiile anterioare. La problema propusa se observa ca o scara de x trepte poate fi urcata dintr-o scara cu x-1 trepte si urcand o treapta sau x-2 trepte si urcand 2 trepte. Deci, formula pt a obtine o scara cu x trepte este numarul de moduri pt x-1 trepte+numarul de moduri pt x-2 trepte
+-in mod evident rezultatele anterioare trebuie retinute
+Probleme simple:
+1.http://acm.timus.ru/problem.aspx?space=1&num=1225
+2.http://acm.timus.ru/problem.aspx?space=1&num=1119
+3.http://acm.timus.ru/problem.aspx?space=1&num=1146
+4.http://acm.timus.ru/problem.aspx?space=1&num=1009
+5.http://acm.timus.ru/problem.aspx?space=1&num=1203
