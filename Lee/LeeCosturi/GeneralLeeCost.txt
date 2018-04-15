@@ -1,0 +1,19 @@
+Algoritmul lui Lee cu costuri
+-se foloseste in cazul in care vrem sa aflam drumul minim intre doua pozitii, dar costul trecerii dintr-o pozitie in alta difera de la celula la celula
+Exp: In fiecare celula a tabloului se afla un numar, costul trecerii dintr-o celula in alta este modulul diferentei dintre cele doua celule vecine
+-exista doua moduri prin care putem rezolva
+
+1. Simplificare a algoritmului lui Bellman-Ford
+	-Pastram o matrice care ne indica costul pana la o anumita pozitie(initial in matrice totale valorile sunt infinit
+	-Introducem in coada origines si ii initializam costul cu 0
+	-Facem passé de la Algoritmul lui Lee, dar conditia pt a introduce in coada nu mai este daca celula a fost vizitata, ci daca costul pt a ajunge in celula(valoarea din matrice) respectiva este mai mare decat costul pe care l-am obtine folosind celula curenta ca intermediar
+
+2. Folosind un sir de cozi(daca costul dintre doua celule este limitat)
+	-este mai rapid ca algoritmul lui Bellman-Ford, dar este limitation de memorie
+	-se folosesc x cozi, unde x este numarul de costuri diferite posibile
+	-presupunem ca suntem intr-o anumita celula. Gasim vecinii acesteia si ii introducem(daca nu sunt vizitati) in celula corespunzatoare costului trecerii(adica vom avea o coada pt fiecare cost)
+	-la fiecare moment de timp vom extrage elementul din coada cu costul cel mai mic
+
+Probleme esentiale:
+1.http://acm.timus.ru/problem.aspx?space=1&num=1930
+2.https://infoarena.ro/problema/delfin

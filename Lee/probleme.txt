@@ -6,4 +6,6 @@ Probleme propuse:
 5.https://infoarena.ro/problema/insule
 6.https://infoarena.ro/problema/lacuri
 7.https://infoarena.ro/problema/ai
-8.https://infoarena.ro/problema/delfin
+8.https://infoarena.ro/problema/rover
+
+
