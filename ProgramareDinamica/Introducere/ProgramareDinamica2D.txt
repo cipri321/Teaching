@@ -1,0 +1,10 @@
+-o stare este caracterizata prin doi parametri
+-starile sunt retinute de obicei in matrici
+-tehnica ramane similara
+Exp: Se da un tablou NxM in care fiecare pozitie contine numarul de mere din acea pozitie. Noi trebuie sa colectam cat mai multe mere plecand din(1,1) in (N,M) mergand doar in jos si in dreapta
+Fie DP[I][j]=numarul de mere pe care le putem colecta pana la pozitia (i,j)
+Stare initiala este DP[1][1]=numarul de mere din (1,1)
+Recurenta este DP[i][j]=max(DP[i-1][j],DP[i][j-1])+numarul de mere din (i,j)
+Probleme simple:
+1.https://infoarena.ro/problema/lacusta
+2.https://community.topcoder.com/stat?c=problem_statement&pm=1889&rd=4709
