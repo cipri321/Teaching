@@ -4,14 +4,14 @@ Dandu-se sirul A de lungime N si sirul B de lungime M, aflati lungimea celui mai
 Idei
 -o solutie ineficienta poate fi realizata cu ajutorul metodei backtracking
 -solutia optima se obtine folosind metoda programarii dinamice in complexitate O(M*N), unde M si N sunt lungimile celor doua siruri
--D[I][j]=lungimea celui mai lung subsir comun pt primele i pozitif din A si primele j pozitii din B
+-D[i][j]=lungimea celui mai lung subsir comun pt primele i pozitif din A si primele j pozitii din B
 
 Starile Initiale:
 -D[0][0]=0
 
 Relatia de recurenta:
--Daca ne aflam in positia (i,j) avem doua cazuri:
-	-A[I]==A[j] -> D[I][j]=D[i-1][j-1]+1
-	-A[I]!=A[j] -> D[I][j]=max(D[i-1][j],D[I][j-1])
+-Daca ne aflam in pozitia (i,j) avem doua cazuri:
+	-A[i]==A[j] -> D[i][j]=D[i-1][j-1]+1
+	-A[i]!=A[j] -> D[j][j]=max(D[i-1][j],D[I][j-1])
 
 Problema pe infoarena: https://infoarena.ro/problema/cmlsc
