@@ -1,0 +1,10 @@
+"Se da o multime formata din N obiecte, fiecare fiind caracterizat de o greutate si un profit. Sa se gaseasca o submultime de obiecte astfel incat suma profiturilor lor sa fie maxima, iar suma greutatilor lor sa nu depaseasca o valoare G."
+
+-problema clasica de dinamica
+-Fie D[i][j]=suma maxima a untie submultimi din primele i elemente care are suma j
+-starile initiale sunt D[0][0]=0, D[i][0]=0
+-recurenta este una cu ramificatii
+-D[i][j]=max(D[i-1][j], caz in care nu luam in submultime elementul i,
+	     D[i-1][j-W[i]]+P[i], caz in care luam in submultimea maxima 	     elementul i, j>=W[i])
+	 -am notat cu W[i]=greutatea obiectului i,P[i]=profitul obiectului i
+	 -de precizat ca nu are sens sa calculam dinamica pt valori mai mari 	 decat G

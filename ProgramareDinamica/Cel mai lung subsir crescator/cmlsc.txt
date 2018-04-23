@@ -1,0 +1,9 @@
+Solutie cu programare dinamica O(n^2)
+-exista o solutie in n*log(n),insa nu va fi prezentata in aceasta lectie
+-consideram sirul D[i]=cel mai lung subsir crescator pana la pozitia i
+-Stim ca D[0]=0(putem pune in sir pe pozitia 0 o pozitie foarte mica pt simplitatea implementarii)
+-Recurenta se bazeaza pe gasirea unui element mai mic din "stanga" elementului curent care are valoarea corespunzatoare in sirul de dinamica maxima
+-in limbaj mai matematic:- D[i] este initial 1(subsirul format din el insusi)
+			 - D[i]=max{D[j],unde A[j]<A[i] si j<i}+1
+			 - Am notat cu A sirul citit din input
+
