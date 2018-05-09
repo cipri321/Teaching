@@ -1,0 +1,9 @@
+-tehnica de programare dinamica care se foloseste de starile de prezenta sau absenta reprezentate printr-un numar in baza 2
+-complexitatea algoritmului devine exponentiala, deci tehnica este valabila pt valori mici ale datelor de intrare
+-ideea principala a metodei este gasirea unei recurente de tipul:
+D[stare][parametru1][parametru2]...[parametruk]- unde stare este un numar care semnifica: daca bitul i este 1, atunci obiectul i se afla in starea pe care o calculam acum, 0 in caz contrar
+-operatiile pe biti joaca un rol semnificativ in aceasta tehnica
+Probleme sugerate:
+1. http://acm.timus.ru/problem.aspx?space=1&num=1152
+2. https://www.infoarena.ro/problema/coins
+3. https://www.infoarena.ro/problema/sobo (grea)
