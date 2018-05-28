@@ -1,0 +1,5 @@
+Pt calculul combinarilor, permutarilor si aranjamentelor este nevoie de unele cunostinte mai avansate care sa permita calculul rapid.
+1. https://infoarena.ro/problema/ciur (pt descompunerea numerelor)
+2. https://infoarena.ro/problema/lgput (pt invers modular)
+3. https://infoarena.ro/problema/euclid3 (tot pt invers modular)->un articol care merita citit: https://infoarena.ro/algoritmul-lui-euclid
+4. https://infoarena.ro/problema/inversmodular (pt inversul modular in cazul numerelor prime este a^(p-2), unde a este numarul pt care cautam inversul, iar p este numarul prim)->Demonstratia se face cu Mica Teorema a lui Fermat(https://en.wikipedia.org/wiki/Fermat%27s_little_theorem) si Teorema lui Euler(https://en.wikipedia.org/wiki/Euler%27s_theorem)

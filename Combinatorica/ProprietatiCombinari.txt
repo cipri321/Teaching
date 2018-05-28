@@ -1,0 +1,15 @@
+Proprietati Combinari:
+-de multe ori in probleme se poate ajunge la diferite sume sau alte forme ale combinarilor, care, calculate separat, ar necesita prea mult timp
+-exista cateva proprietati care ne pot ajuta sa calculam
+Vom nota C(n,k)-combinari de n luate cate k
+1. C(n,k)=n!/(n-k)!*k!
+2. C(n,k)=C(n-1,k-1)+C(n-1,k) (Triunghiul lui Pascal)
+3. C(n,0)+C(n,1)+C(n,2)+...+C(n,n)=2^n
+4. C(n,k)=C(n,n-k) (Formula Combinarilor complementare)
+
+Probleme:
+1. Calculati sumele:
+	1. Suma(k=1->n) din k*C(n,k)
+	2. Suma(k=1->n) din (1/(k+1))*C(n,k)
+2. C(10,x)=C(10, 7)
+3. Aflati numarul de submultimi al unei multimi cu n elemente.

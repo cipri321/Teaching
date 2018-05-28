@@ -1,0 +1,15 @@
+Aflarea Indicatorului lui Euler(Euler's Totient) prin intermediul unei metode asemanatoare Ciurului lui Eratostene.
+Aceasta metoda ne ajuta sa aflam Indicatorul lui Euler pt n numere in complexitate n*log2(n)
+Proprietatea pe care ne bazam este:
+phi(n)=n*produs(p|n) din (1-1/p),
+adica phi(n) este n*produsul (1-1/p) unde p este un factor prim al lui n
+Algoritm:
+1. Mentinem un sir phi[i]=indicatorul lui euler al numarului i, initial, phi[i]=i
+	-cu aceasta initializare ne putem da seama daca o anumita valoare a fost calculata(valoarea maxima pt phi(n)=n-1, pt numere prime)
+	-i face parte din formula finala de calcul
+2. O bucla de la p=2->n(n este ultimul numar pt care trebuie sa calculam)
+	-daca phi[p]=p, inseamna ca p este prim, iar asta inseamna ca trebuie sa actualizam toti multiplii lui p
+	-parcurgem multiplii lui p si inmultim acele valori cu (1-1/p)
+Probleme:
+1. https://infoarena.ro/problema/fractii
+2. https://infoarena.ro/problema/sum (solutie: https://www.infoarena.ro/preoni-2006/runda-3/solutii)
