@@ -1,0 +1,14 @@
+1. http://acm.timus.ru/problem.aspx?space=1&num=2104
+2. http://acm.timus.ru/problem.aspx?space=1&num=2063
+3. http://acm.timus.ru/problem.aspx?space=1&num=1789
+4. http://codeforces.com/contest/876/problem/C
+5. http://codeforces.com/contest/816/problem/C
+6. http://codeforces.com/contest/825/problem/C
+7. https://www.infoarena.ro/problema/eqs (meet in the middle)
+8. https://www.infoarena.ro/problema/poligon2
+9. https://www.infoarena.ro/problema/maxsecv
+10. https://www.infoarena.ro/problema/economie
+11. https://www.infoarena.ro/problema/qtri
+12. https://www.infoarena.ro/problema/strabunica
+13. https://www.infoarena.ro/problema/mts
+14. https://www.infoarena.ro/problema/trenul
