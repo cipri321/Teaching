@@ -4,7 +4,7 @@
 4. http://codeforces.com/contest/876/problem/C
 5. http://codeforces.com/contest/816/problem/C
 6. http://codeforces.com/contest/825/problem/C
-7. https://www.infoarena.ro/problema/eqs (meet in the middle)
+7. https://www.infoarena.ro/problema/eqs (meet in the middle) (https://infoarena.ro/blog/meet-in-the-middle)
 8. https://www.infoarena.ro/problema/poligon2
 9. https://www.infoarena.ro/problema/maxsecv
 10. https://www.infoarena.ro/problema/economie
